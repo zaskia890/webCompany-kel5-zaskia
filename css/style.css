@@ -1,0 +1,9 @@
+.jumbotron{
+    background-color: aqua;
+} 
+.body{
+    min-height:3000px;
+}
+.project{
+    background-color: rgb(13, 247, 247);
+}

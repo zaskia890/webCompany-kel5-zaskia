@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href=" css/carousel.css" rel="stylesheet">
+    <title>About</title>
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+  
+        .b-example-divider {
+          width: 100%;
+          height: 3rem;
+          background-color: rgba(0, 0, 0, .1);
+          border: solid rgba(0, 0, 0, .15);
+          border-width: 1px 0;
+          box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+  
+        .b-example-vr {
+          flex-shrink: 0;
+          width: 1.5rem;
+          height: 100vh;
+        }
+  
+        .bi {
+          vertical-align: -.125em;
+          fill: currentColor;
+        }
+  
+        .nav-scroller {
+          position: relative;
+          z-index: 2;
+          height: 2.75rem;
+          overflow-y: hidden;
+        }
+  
+        .nav-scroller .nav {
+          display: flex;
+          flex-wrap: nowrap;
+          padding-bottom: 1rem;
+          margin-top: -1px;
+          overflow-x: auto;
+          text-align: center;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+  
+        .btn-bd-primary {
+          --bd-violet-bg: #712cf9;
+          --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  
+          --bs-btn-font-weight: 600;
+          --bs-btn-color: var(--bs-white);
+          --bs-btn-bg: var(--bd-violet-bg);
+          --bs-btn-border-color: var(--bd-violet-bg);
+          --bs-btn-hover-color: var(--bs-white);
+          --bs-btn-hover-bg: #6528e0;
+          --bs-btn-hover-border-color: #6528e0;
+          --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+          --bs-btn-active-color: var(--bs-btn-hover-color);
+          --bs-btn-active-bg: #5a23c8;
+          --bs-btn-active-border-color: #5a23c8;
+        }
+  
+        .bd-mode-toggle {
+          z-index: 1500;
+        }
+  
+        .bd-mode-toggle .dropdown-menu .active .bi {
+          display: block !important;
+        }
+        img{
+            object-fit: fill;
+        }
+        .card-img {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+        }
+        .overlay-dark::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, .15);
+          z-index: 1;
+        }
+      </style>
+</head>
+<body>
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">TOKO BARU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">gallery</a>
+                  </li>
+                 
+                
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark">
+              <img src="img/7635545.jpg" alt="" style="width: 150; height: 150%;">
+            </div>
+             
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Pabrik kosmetik dan skincare terbaik.</h1>
+                <p class="opacity-75">Tertarik dengan bisnis kosmetik dan scikcare?? yuk, konsultadi bersama PT kosmetik indonesia </p>
+                <p><a class="btn btn-lg btn-primary" href="#">singup today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="img/4727198.jpg" alt="" style="width: 205; height: 170%;">
+            </div>
+             
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>punya masalah kulit kering dan jerawat?</h1>
+                <p> temukan solusi dengan produk sckincare kami yang terbukti ampuh.</p>
+                <p><a class="btn btn-" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+              <img src="img/7564615.jpg" alt="" style="width:205; height:170%;">
+
+            </div>
+            
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Bingung dengan produk kam</h1>
+                <p>Tersedia berbagai varian untuk memenuhi kebutuhan kulit normal berminyak dan sensitif.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--about-->
+      <section class="about">
+        <div class="container">
+            <div class="row text-center">
+                <h1>About Us</h1>
+                <hr style="bober: 4px solid black;">
+            </div>
+
+      <hr class="featurette-divider" style="border:transparent;" >
+      
+      <div class="row" style="background-color:aliceblue;">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1" style="margin-top: 3.5rem;">About<span class="text-body-secondary">Us.</span></h2>
+          <p class="lead">PT Venus merupakan perusahan manufaktor kosmetik terbesar di jawa timur indonesia,telan memproduksi banyak merek merek skincare dan kosmetik ungulan tidak kurang 150 brend, di bentuk dan di kembangkan oleh tenaga ahli yang berpengalaman dan didukung dengan karyawan-karyawan muda dengan semangat tinggi dan inovatif. </p>
+        </div>
+        <div class="col-md-5">
+            <img src="img/about-1024x768.jpeg" alt="" style="width:100%;">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
+    </div>
+</section>
+
+      <!--akhir about-->
+
+      <!--awal fouter-->
+      <div class="b-example-divider"></div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="https//www twitter.com"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg>Twitter</a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/zaskiqna_"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg>Instagram</a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https//www fecebook.com/zaskia salsa bila"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg>fecebook</a></li>
+    </ul>
+  </footer>
+</div>
+      <!--akhir fouter-->
+  
+    
+</body>
+</html>
